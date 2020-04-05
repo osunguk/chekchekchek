@@ -170,3 +170,5 @@ sketch
 *.lnk
 
 # End of https://www.gitignore.io/api/node,windows,visualstudiocode
+interpark response.txt
+json res.txt
