@@ -1,18 +1,7 @@
 <template>
   <section>
-    <h1 class="header">Nuxt TypeScript Starter</h1>
-    <ul>
-      <li><nuxt-link :to="{ name: 'bestSeller' }">베스트셀러</nuxt-link></li>
-      <li><nuxt-link :to="{ name: 'recommend' }">추천</nuxt-link></li>
-      <li><nuxt-link :to="{ name: 'newBook' }">신간</nuxt-link></li>
-    </ul>
-    <div class="cards">
-      <Card
-        v-for="person in people"
-        :key="person.id"
-        :person="person"
-      ></Card>
-    </div>
+    <h1 class="header">추천</h1>
+    <nuxt-link to="/">홈으로</nuxt-link>
   </section>
 </template>
 
