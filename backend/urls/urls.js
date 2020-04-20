@@ -7,7 +7,7 @@ const newBookBase = "http://book.interpark.com/api/newBook.api"+"key="+key
 
 export {
     searchBase,
-    bestSeller,
+    bestsellerBase,
     recommandBase,
     newBookBase
 }
